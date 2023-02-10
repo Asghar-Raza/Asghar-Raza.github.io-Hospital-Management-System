@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<title>Patient's Details</title>
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="/assets/css/patient_details.css">
+<script src="/assets/js/patient_details.js"></script>
+<link rel="stylesheet" href="/assets/css/footer.css">
+</head>
+<!------ Include the above in your HEAD tag ---------->
+<body>
+    <div class="wrapper">
+		<!--=== Header v1 ===-->
+		<div class="header-v1">
+		<!-- Topbar -->
+		<div class="topbar-v1">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-6">
+			<ul class="list-inline top-v1-contacts">
+			<li>
+			<i class="fa fa-envelope"></i> Email: cleftpakistan@gmail.com
+			</li>
+			<li>
+			<i class="fa fa-phone"></i> Contact no : 0342 2244899
+			</li>
+			</ul>
+		</div>
+		</div>
+		</div>
+		</div>
+
+        <div class="navbar mega-menu" role="navigation">
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="res-container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-brand">
+            <a href="index.html">
+            <img src="assets/img/logo/logo.jpg" style="width: 60%; margin-left: -15px;" alt="Logo"/>
+            </a>
+            </div>
+            </div>
+
+<div class="container">
+      <div class="row">
+      <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
+
+      </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Patient Profile</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 " style ="align-items: center;">  </div>
+                
+                <!--<div class="col-xs-10 col-sm-10 hidden-md hidden-lg"> <br>
+                  <dl>
+                    <dt>DEPARTMENT:</dt>
+                    <dd>Administrator</dd>
+                    <dt>HIRE DATE</dt>
+                    <dd>11/12/2013</dd>
+                    <dt>DATE OF BIRTH</dt>
+                       <dd>11/12/2013</dd>
+                    <dt>GENDER</dt>
+                    <dd>Male</dd>
+                  </dl>
+                </div>-->
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td> <b>Personal Information: </b></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>patient name:</td>
+                        <td> <input type="text" name="status"></td>
+                      </tr>
+                      <tr>
+                        <td>Age:</td>
+                        <td><input type="text" name="status"></td>
+                      </tr>
+                   
+                         <tr>
+                             <tr>
+                        <td>Gender:</td>
+                        <td> Male: <input type="checkbox" name="status"> Female: <input type="checkbox" name="status"></td>
+                      </tr>
+                        <tr>
+                        <td>Address:</td>
+                        <td><input type="text" name="status"></td>
+                      </tr>
+                      <tr>
+                        <td>Mobile:</td>
+                        <td><input type="text" name="status"></td>
+                      </tr>
+                        <td>Job:</td>
+                        <td> <input type="text" name="status"> </td>
+                           
+                      </tr>
+                     
+                       </tr>
+                        <td>Marital Status:</td>
+                        <td> <input type="text" name="status"> </td>
+                           
+                      </tr>
+
+                    </tr>
+                    <td>Email</td>
+                    <td><input type="text" name="Comments" > </td>
+                    </tr>
+
+                    </tr>
+                    <td>Registration Number</td>
+                    <td><input type="number" name="Comments" > </td>
+                    </tr>
+                     
+                      </tr>
+                        <td> <b > Medical Information:</b></td>
+                        <td> </td>
+                           
+                      </tr>
+
+                      </tr>
+                        <td>latest surgery date:</td>
+                        <td> Date:  <input type="date" name="date" > </td>
+                           
+                      </tr>
+                     
+                     
+                      </tr>
+                        <td>suffer from any kidney ,lungs , heart ,blood presure disease?</td>
+                        <td> Yes:  <input type="checkbox" name="yes" value="yes"> No: <input type="checkbox" name="no" value="no"> </td>
+                           
+                      </tr>
+                     
+                       </tr>
+                        <td>had blood transfer before?</td>
+                        <td>  Yes: <input type="checkbox" name="yes" value="yes"> No: <input type="checkbox" name="no" value="no"> </td>
+                           
+                      </tr>
+                     
+                     </tr>
+                        <td>catch virus C or B before ?</td>
+                        <td>  Yes: <input type="checkbox" name="yes" value="yes"> No: <input type="checkbox" name="no" value="no"> </td>
+                           
+                      </tr>
+                     
+                      </tr>
+                        <td>take any medicines or drugs now ?</td>
+                        <td>  Yes: <input type="checkbox" name="yes" value="yes"> No: <input type="checkbox" name="no" value="no"> Name of Medication: <input type="name" name="medication"> </td>
+                           
+                      </tr>
+                     
+                      </tr>
+                        <td>your latest visit?</td>
+                        <td> Date:  <input type="date" name="date" > </td>
+                           
+                      </tr>
+
+                     
+                       </tr>
+                       <td>Additional Comments</td>
+                       <td><input type="text" name="Comments" > </td>
+                      </tr>
+
+                        
+                     
+                     
+                    </tbody>
+                  </table>
+                  
+                  
+                  <a href="#" class="btn btn-primary" style="width:140px">Save</a>
+                 
+                  <a href="index.html" class="btn btn-primary" style="width:140px"> Homepage</a>
+                </div>
+              </div>
+            </div>
+                
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+<div class="footer-v1" >
+    <div class="footer" >
+    <div class="container">
+    <div class="row" >
+    <!-- About -->
+    <div class="col-md-3" style="margin-bottom: 40px;">
+    <a href="index.html"><img id="logo-footer" class="footer-logo" src="assets/img/logo/logo.jpg" style="width: 85%;" alt=""/></a>
+    <p>At Cleft Pakistan, we are convinced that 'quality' and 'lowest cost' are not mutually exclusive when it comes to healthcare delivery.</p>
+    <p>Our mission is to deliver high quality, affordable healthcare services to the broader population in Pakistan.</p>
+    </div><!--/col-md-3-->
+    <!-- End About -->
+
+    <!-- Latest -->
+    <div class="col-md-3" style="margin-bottom: 40px;">
+    <div class="posts">
+    <div class="headline"><h2>Latest Posts</h2></div>
+    <ul class="list-unstyled latest-list">
+    <li>
+    <a href="blog.html">Incredible content</a>
+    <small style="color: white;">January 25, 2023</small>
+    </li>
+    <li>
+    <a href="gallery.html">Latest Images</a>
+    <small style="color: white;">January 25, 2023</small>
+    </li>
+    <li>
+    <a href="terms.html">Terms and Conditions</a>
+    <small style="color: white;">January 25, 2023</small>
+    </li>
+    </ul>
+    </div>
+    </div><!--/col-md-3-->
+    <!-- End Latest -->
+
+    <!-- Link List -->
+    <div class="col-md-3" style="margin-bottom: 40px;">
+    <div class="headline"><h2>Useful Links</h2></div>
+    <ul class="list-unstyled link-list">
+    <li><a href="about.html">About us</a><i class="fa fa-angle-right"></i></li>
+    <li><a href="Contact.html">Contact us</a><i class="fa fa-angle-right"></i></li>
+    <li><a href="appointment.html">Book Appointment</a><i class="fa fa-angle-right"></i></li>
+    </ul>
+    </div><!--/col-md-3-->
+    <!-- End Link List -->
+
+    <!-- Address -->
+    <div class="col-md-3 map-img" style="margin-bottom: 40px;">
+    <div class="headline"><h2>Contact Us</h2></div>
+    <address class="md-margin-bottom-40">
+    Cleft Pakistan <br />
+    Karachi, PK <br />
+    Phone: +92 321 8216947 <br />
+    Email: cleftpakistan@gmail.com 
+    </address>
+    </div><!--/col-md-3-->
+    <!-- End Address -->
+    </div>
+    </div>
+    </div><!--/footer-->
+
+    <div class="copyright">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <p>
+    2023 &copy; All Rights Reserved.
+    <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
+    </p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="col-md-12">
+    <ul class="footer-socials list-inline">
+    <li>
+    <a href="http://www.facebook.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+    <i class="fa fa-facebook"></i>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.skype.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
+    <i class="fa fa-skype"></i>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.googleplus.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+    <i class="fa fa-google-plus"></i>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.linkedin.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+    <i class="fa fa-linkedin"></i>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.Pinterest.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
+    <i class="fa fa-pinterest"></i>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.twitter.com" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+    <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    </ul>
+    </div>
+</html>
